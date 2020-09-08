@@ -6,14 +6,37 @@ body {
   background-image: url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FEm-website-pic-optimised.jpg?v=1599543319645);
 }
 
-h1 {
-  color: white;
+/*h1 {
+  color: Black;
+}*/
+
+.ControlBox{
+  padding:20px;
+  margin-top:100px;
+  margin-left:200px;
+  margin-right:200px;
+  float:middle;
+  background-color:#C6C1A5;
 }
 
 .Page1 {
-  background:navy;
+  background:#C6C1A5;
   color:white;
-  
-  border:;
+  border:none;
   
 }
+
+@media only screen and (min-width:360px){
+  .ControlBox{
+  /*padding:20px;*/
+ /* margin:0px;*/
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:0px;
+  float:middle;
+  background-color:#C6C1A5;
+  }
+  
+}
+
+/* media queries are not working, they are failing to be noticed.*/
