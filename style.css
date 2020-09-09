@@ -3,7 +3,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-image: url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FEm-website-pic-optimised.jpg?v=1599543319645);
+  background-image: url("https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2Fpexels-nick-collins-1293125%20(1).jpg?v=1599647706155");
 }
 
 #DrwPge{
@@ -12,7 +12,7 @@ body {
 
 
 .heading{
-  background-color:#C6C1A5;
+  background-color:#A52C50;
   width:70%;
   padding:20px;
   margin:auto;
@@ -20,7 +20,7 @@ body {
   color:white;
 }
 .navi{
-    background:#C6C1A5;
+    background:#A52C50;
     width:90%;
     margin:auto;
     
@@ -34,7 +34,7 @@ body {
 }
 
 .b_nav{
-  background-color:#C6C1A5;
+  background-color:#A52C50;
   border:none;
   color:white;
   font-size:1.2em;
@@ -42,7 +42,7 @@ body {
 }
 
 .subPageHead{
-  background-color:#C6C1A5;
+  background-color:#A52C50;
   width:70%;
   padding:20px;
   color:white;
@@ -50,4 +50,9 @@ body {
 
 /* fiddle with the coloring and layout. Make the wording fit better and 
 add in the image. Also add in right broder for navi spaceing. make sure to show working
-and changes made in paper work. Screen Shots and keep track.*/
+and changes made in paper work. Screen Shots and keep track. 
+Maroon Back = #A52C50 
+Beige Back= #C6C1A5
+Pinkie back= #FCE1D3
+dark green back = #04622B
+Blue back = # 0947B5*/
