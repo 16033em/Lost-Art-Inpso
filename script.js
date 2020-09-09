@@ -4,8 +4,31 @@
 // prints "hi" in the browser's dev tools console
 console.log("hi");
 
-//function drawing(){
+function homeBttn(){
+  
+  
+}
+
+function drawingPgeChng1(){
   
   
   
-//}
+}
+
+function paintingPgeChng1(){
+  
+  
+}
+
+
+function mixedMatsPgeChng1(){
+  
+  
+}
+
+function waterColorPgeChng1(){
+  
+  
+}
+
+function oilPastelPgeChng1(){}
