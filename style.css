@@ -1,17 +1,21 @@
 /* CSS files add styling rules to your content */
-
+/*** MAIN STYLE ***/
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-  background-image: url("https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2Fpexels-nick-collins-1293125%20(1).jpg?v=1599647706155");
+  margin: 0;
+  background-image: url("https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-Red-image.gif?v=1599698349801");
 }
 
-#DrwPge{
-  display:none;
+.container{
+  width:100%;
+  height: 1000px;
+  background-color:#A52C50;
+  color:white;
 }
 
+/*** LANDING PAGE ***/
 
-.heading{
+.mainheading{
   background-color:#A52C50;
   width:70%;
   padding:20px;
@@ -25,12 +29,11 @@ body {
     margin:auto;
     
 }
-.navi a{
-  border:none;
-  color:white;
-  font-size:1.2em;
-  padding:5px;
 
+.mainLogo{
+  margin-right:15%;
+  width:120px;
+  float:right;
 }
 
 .b_nav{
@@ -41,16 +44,29 @@ body {
   border-right:2px solid white;
 }
 
-.subPageHead{
-  background-color:#A52C50;
-  width:70%;
-  padding:20px;
-  color:white;
+
+/*** DRAWING PAGE STYLE ***/
+.header{
+  background-image: url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-red-rectangle.gif?v=1599702585360);
+  color: black;
+  font-weight:bolder;
+  font-family: 'Roboto';
 }
 
-/* fiddle with the coloring and layout. Make the wording fit better and 
-add in the image. Also add in right broder for navi spaceing. make sure to show working
-and changes made in paper work. Screen Shots and keep track. 
+.subLogo{
+  margin:15%;
+  width:130px;
+}
+
+#DrwPge{
+  display:none;
+  
+}
+
+/*@media 
+
+/* The sub name label wont change for the sub header, dont know how to fix this.
+I also want the mainpage logo to be moved up slightly dont know how to to do so.
 Maroon Back = #A52C50 
 Beige Back= #C6C1A5
 Pinkie back= #FCE1D3

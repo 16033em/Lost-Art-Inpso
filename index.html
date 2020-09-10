@@ -15,10 +15,27 @@
     <script src="/script.js" defer></script>
   </head>  
   <body>
+    <div class="w3-row">
+      <div class="w3-col m1 w3-center w3-grey">1</div>
+      <div class="w3-col m1 w3-center w3-white">2</div>
+      <div class="w3-col m1 w3-center w3-grey">3</div>
+      <div class="w3-col m1 w3-center w3-white">4</div>
+      <div class="w3-col m1 w3-center w3-grey">5</div>
+      <div class="w3-col m1 w3-center w3-white">6</div>
+      <div class="w3-col m1 w3-center w3-grey">7</div>
+      <div class="w3-col m1 w3-center w3-white">8</div>
+      <div class="w3-col m1 w3-center w3-grey">9</div>
+      <div class="w3-col m1 w3-center w3-white">10</div>
+      <div class="w3-col m1 w3-center w3-grey">11</div>
+      <div class="w3-col m1 w3-center w3-white">12</div>
+    </div>
     <section id="LndPge">
-      <div class="heading">
+      <div class="mainheading">
+        <img class="mainLogo" src="https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FLOGO-IMAGE.png?v=1599715044537">
         <h1>Lost Art Inspiration</h1>
     
+        
+        
         <div class="navi">
           <button class="b_nav" onclick="drawingPgeChng1()">Drawing</button>
           <button class="b_nav" onclick="paintingPgeChng1()">Painting</button>
@@ -26,17 +43,20 @@
           <button class="b_nav" onclick="waterColorPgeChng1()">Water Color</button>
           <button class="b_nav" onclick="oilPastelPgeChng1()">Oil Pastels</button>
         </div> <!--Navi div end-->
-      </div>
+      </div> <!-- mainheading end-->
     </section> <!--LndPge end-->
     
-    <section id="DrwPge">
-        <div class="subPageHead">
-          <h1>Drawing</h1>
-        
-          <h2>Welcome to a new page.</h2>
-        
+    <section id="DrwPge" class="container">
+        <div class="w3-row header">
+            <div class="w3-col l2 m3 s5">
+              <img class="subLogo" src="https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FLOGO-IMAGE.png?v=1599715044537" >
+            </div>
+            <div class="w3-col l10 m9 s7">
+              <h1>Drawing</h1>
+              <h2>Welcome to a new page.</h2>
+            </div>
           <button class="b_nav" onclick="homeBttn()">Home</button>
-        </div><!--subPageHead end-->
+        </div><!-- header end-->
     </section> <!--DrwPge end-->
   </body>
 </html>
