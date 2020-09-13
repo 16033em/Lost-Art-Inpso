@@ -21,8 +21,9 @@ body {
   padding:20px;
   margin:auto;
   margin-top:20%;
-  color:white;
+  color:white; 
 }
+
 .navi{
     background:#A52C50;
     width:90%;
@@ -32,6 +33,7 @@ body {
 
 .mainLogo{
   margin-right:15%;
+  /*margin-bottom:10%;*/
   width:120px;
   float:right;
 }
@@ -48,21 +50,58 @@ body {
 /*** DRAWING PAGE STYLE ***/
 .header{
   background-image: url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-red-rectangle.gif?v=1599702585360);
-  color: black;
-  font-weight:bolder;
-  font-family: 'Roboto';
-}
+ color: white;
+}/*** You can see the header lettering easier with flatter image. white and blue are options for this.***/
 
 .subLogo{
   margin:15%;
   width:130px;
 }
 
-#DrwPge{
+.infoHeader{
+  margin-left:10%;
+  margin-top:5%;
+  float:left;
+  border-bottom:2px solid white;
+}
+
+.info{
+  margin-left:10%;
+  float:left;
+  font-size:20px;
+  width:30%;
+}
+
+#drwPge{
+  display:none;
+}
+
+#pntPge{
+  display:none;
+}
+
+.infoImg{
+  float:right;
+  margin-right:10%;
+  margin-top:10%;
+}
+
+#mmPge{
+    display:none;
+}
+
+#opPge{
+   display:none;
+}
+
+#wcPge{
+   display:none;
+}
+
+#ttsPge{
   display:none;
   
 }
-
 /*@media 
 
 /* The sub name label wont change for the sub header, dont know how to fix this.
