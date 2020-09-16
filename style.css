@@ -53,6 +53,12 @@ body {
  color: white;
 }/*** You can see the header lettering easier with flatter image. white and blue are options for this.***/
 
+.subWordHead {
+  background-color:#A52C50;
+  padding:20px;
+  margin:20px;
+}
+
 .subLogo{
   margin:15%;
   width:130px;
@@ -67,9 +73,7 @@ body {
 
 .info{
   margin-left:10%;
-  float:left;
   font-size:20px;
-  width:30%;
 }
 
 #drwPge{
@@ -80,11 +84,6 @@ body {
   display:none;
 }
 
-.infoImg{
-  float:right;
-  margin-right:10%;
-  margin-top:10%;
-}
 
 #mmPge{
     display:none;
