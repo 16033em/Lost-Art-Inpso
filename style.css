@@ -8,7 +8,6 @@ body {
 
 .container{
   width:100%;
-  height: 1000px;
   background-color:#A52C50;
   color:white;
 }
@@ -71,10 +70,64 @@ body {
   border-bottom:2px solid white;
 }
 
+.imgInfo{
+  margin-bottom: 5%;
+  
+}
+
 .info{
   margin-left:10%;
   font-size:20px;
 }
+
+.footerStyle{
+  background-image:url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-red-rectangle.gif?v=1599702585360);
+  color:white;
+  
+}
+
+.footerWord{
+  background-color:#A52C50;
+  padding:10px;
+  margin-left:500px;
+  margin-right:500px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.phoneHome{
+  display:none;
+}
+
+/*@media only screen and (max-width:992px){
+  .subWordHead{
+    background-color:#A52C50;
+    padding:20px;
+    margin:20px;
+  }
+  
+  
+}*/
+
+@media only screen and (max-width:600px){
+  .subWordHead{
+    display:none;
+    
+  }
+  
+  .phoneHome{
+    display:block;
+    background-color:#A52C50;
+    color:white;
+    font-size:2em;
+    border:2px solid white;
+    margin-left:10%;
+    margin-top:30%;
+  }
+}
+
+
+
 
 #drwPge{
   display:none;
