@@ -88,26 +88,26 @@ body {
 
 .footerWord{
   background-color:#A52C50;
+  color:white;
   padding:10px;
   margin-left:500px;
   margin-right:500px;
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-bottom:30px;
+  
 }
 
 .phoneHome{
   display:none;
 }
 
-/*@media only screen and (max-width:992px){
-  .subWordHead{
-    background-color:#A52C50;
-    padding:20px;
-    margin:20px;
-  }
-  
-  
-}*/
+.linkHeader{
+  font-size:20px;
+  margin-left:10%;
+  margin-top:5%;
+  float:left;
+  border-bottom:2px solid white;
+}
+
 
 @media only screen and (max-width:600px){
   .subWordHead{
@@ -125,7 +125,6 @@ body {
     margin-top:30%;
   }
 }
-
 
 
 
@@ -162,4 +161,4 @@ Maroon Back = #A52C50
 Beige Back= #C6C1A5
 Pinkie back= #FCE1D3
 dark green back = #04622B
-Blue back = # 0947B5*/
+Blue back = #0947B5*/
