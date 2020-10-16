@@ -80,6 +80,12 @@ body {
   font-size:20px;
 }
 
+.linkInfo ul{
+  list-style-type:none;
+  
+}
+
+
 .footerStyle{
   background-image:url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-red-rectangle.gif?v=1599702585360);
   color:white;
