@@ -3,28 +3,28 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 0;
-  background-image: url("https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-Red-image.gif?v=1599698349801");
+  background-image: url("https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimsed-white-background-full.gif?v=1603150668302");
 }
 
 .container{
   width:100%;
-  background-color:#A52C50;
-  color:white;
+  background-color:white;
+  color:black;
 }
 
 /*** LANDING PAGE ***/
 
 .mainheading{
-  background-color:#A52C50;
+  background-color:white;
   width:70%;
   padding:20px;
   margin:auto;
   margin-top:20%;
-  color:white; 
+  color:black; 
 }
 
 .navi{
-    background:#A52C50;
+    background:white;
     width:90%;
     margin:auto;
     
@@ -38,22 +38,22 @@ body {
 }
 
 .b_nav{
-  background-color:#A52C50;
+  background-color:white;
   border:none;
-  color:white;
+  color:black;
   font-size:1.2em;
-  border-right:2px solid white;
+  border-right:2px solid black;
 }
 
 
 /*** DRAWING PAGE STYLE ***/
 .header{
-  background-image: url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-red-rectangle.gif?v=1599702585360);
- color: white;
+  background-image: url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-backgound-white-small.gif?v=1603150672526);
+ color: black;
 }/*** You can see the header lettering easier with flatter image. white and blue are options for this.***/
 
 .subWordHead {
-  background-color:#A52C50;
+  background-color:white;
   padding:20px;
   margin:20px;
 }
@@ -67,7 +67,7 @@ body {
   margin-left:10%;
   margin-top:5%;
   float:left;
-  border-bottom:2px solid white;
+  border-bottom:2px solid black;
 }
 
 .imgInfo{
@@ -88,14 +88,14 @@ body {
 
 
 .footerStyle{
-  background-image:url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-red-rectangle.gif?v=1599702585360);
+  background-image:url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-backgound-white-small.gif?v=1603150672526);
   color:white;
   
 }
 
 .footerWord{
-  background-color:#A52C50;
-  color:white;
+  background-color:white;
+  color:black;
   padding:10px;
   margin-left:20%;
   margin-right:20%;
@@ -112,7 +112,7 @@ body {
   margin-left:10%;
   margin-top:5%;
   float:left;
-  border-bottom:2px solid white;
+  border-bottom:2px solid black;
 }
 
 
@@ -124,10 +124,10 @@ body {
   
   .phoneHome{
     display:block;
-    background-color:#A52C50;
-    color:white;
+    background-color:white;
+    color:black;
     font-size:2em;
-    border:2px solid white;
+    border:2px solid black;
     margin-left:10%;
     margin-top:30%;
   }
