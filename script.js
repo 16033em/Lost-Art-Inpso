@@ -48,11 +48,12 @@ function drwToTTS(){
 }
 
 ///////////////////////////Painting Page///////////////////////////////////
+//swaps from home to painting
 function paintingPgeChng1(){
   document.getElementById("pntPge").style.display="block";
   document.getElementById("lndPge").style.display="none";  
 }
-
+//swaps from painting to home
 function paintingPgeHome(){
   document.getElementById("lndPge").style.display="block";
   document.getElementById("pntPge").style.display="none"; 
@@ -218,11 +219,12 @@ function opToTTS (){
   document.getElementById("opPge").style.display="none";
 }
 //////////////////////////////Tips To Start Page////////////////////////////////////
+//swaps from home to tips to start
 function TTSPgeChng1(){
   document.getElementById("ttsPge").style.display="block";
   document.getElementById("lndPge").style.display="none";
 }
-
+//swaps from tips to start to home
 function TTSHome(){
   document.getElementById("lndPge").style.display="block";
   document.getElementById("ttsPge").style.display="none";
