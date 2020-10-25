@@ -11,9 +11,11 @@ body {
   background-color:white;
   color:black;
 }
+/*** main style end ***/
 
 /*** LANDING PAGE ***/
 
+/*** LANDING NAV STYLE ***/
 .mainheading{
   background-color:white;
   width:70%;
@@ -44,9 +46,11 @@ body {
   font-size:1.2em;
   border-right:2px solid black;
 }
+/*** landing nav style end ***/
 
+/*** SUB PAGE STYLE ***/
 
-/*** DRAWING PAGE STYLE ***/
+/*** SUB NAVIGATION STYLE ***/
 .header{
   background-image: url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-backgound-white-small.gif?v=1603150672526);
  color: black;
@@ -62,7 +66,9 @@ body {
   margin:15%;
   width:130px;
 }
+/*** sub navigation style end ***/
 
+/*** INFO STYLE ***/
 .infoHeader{
   margin-left:10%;
   margin-top:5%;
@@ -70,27 +76,35 @@ body {
   border-bottom:2px solid black;
 }
 
-.imgInfo{
-  width:60%;
-  margin-bottom: 5%;
-  
-}
-
 .info{
   margin-left:10%;
   font-size:20px;
 }
 
-.linkInfo ul{
-  list-style-type:none;
-  
+.imgInfo{
+  width:60%;
+  margin-bottom: 5%;
+}
+/*** info style end ***/
+
+/*** LINK STYLE ***/
+.linkHeader{
+  font-size:20px;
+  margin-left:10%;
+  margin-top:5%;
+  float:left;
+  border-bottom:2px solid black;
 }
 
+.linkInfo ul{
+  list-style-type:none;
+}
+/*** link style end ***/
 
+/*** FOOTER STYLE ***/
 .footerStyle{
   background-image:url(https://cdn.glitch.com/53b65446-4bb8-4d27-b58b-c56b629550b4%2FOptimised-backgound-white-small.gif?v=1603150672526);
-  color:white;
-  
+  color:white; 
 }
 
 .footerWord{
@@ -100,21 +114,13 @@ body {
   margin-left:20%;
   margin-right:20%;
   margin-bottom:30px;
-  
 }
+/*** footer style end ***/
 
+/*** PHONE STYLE ***/
 .phoneHome{
   display:none;
 }
-
-.linkHeader{
-  font-size:20px;
-  margin-left:10%;
-  margin-top:5%;
-  float:left;
-  border-bottom:2px solid black;
-}
-
 
 @media only screen and (max-width:600px){
   .subWordHead{
@@ -132,8 +138,9 @@ body {
     margin-top:30%;
   }
 }
+/*** Phone style end ***/
 
-
+/*** PAGE BASIC DISPLAYS ***/
 
 #drwPge{
   display:none;
@@ -159,13 +166,6 @@ body {
 #ttsPge{
   display:none;
   
-}
-/*@media 
+} 
 
-/* The sub name label wont change for the sub header, dont know how to fix this.
-I also want the mainpage logo to be moved up slightly dont know how to to do so.
-Maroon Back = #A52C50 
-Beige Back= #C6C1A5
-Pinkie back= #FCE1D3
-dark green back = #04622B
-Blue back = #0947B5*/
+/*** page basic display end ***/
