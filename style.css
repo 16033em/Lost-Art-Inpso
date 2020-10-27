@@ -115,6 +115,11 @@ body {
   margin-right:20%;
   margin-bottom:30px;
 }
+
+.footerWord h3{
+  font-size:20px;
+  
+}
 /*** footer style end ***/
 
 /*** PHONE STYLE ***/
@@ -136,6 +141,11 @@ body {
     border:2px solid black;
     margin-left:10%;
     margin-top:30%;
+  }
+  
+  .footerWord h3{
+    font-size:10px;
+    
   }
 }
 /*** Phone style end ***/
